@@ -1,0 +1,568 @@
+{
+    "booking": [
+        {
+            "BookingId": "e6600452-7196-4157-9475-988840b05da9",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "CustomerId": "c0141892-9b90-405b-b218-be498c97e4cd",
+            "BookedDate": "2023-08-29T00:00:00",
+            "BookingDate": "2023-08-29T00:00:00",
+            "ProductIds": null,
+            "AdditionalNote": null,
+            "Total": 0.0,
+            "Status": 0
+        }
+    ],
+    "branch": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "MERKEZ",
+            "CompanyId": "c0141892-9b90-405b-b218-be498c97e4cd"
+        }
+    ],
+    "categories": [
+        {
+            "categoryId": "c1e50311-4f2a-46e8-9549-3e5a1e5efb5a",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-1.png",
+            "Name": "MAKEUP",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "de2d8a14-6b2e-4b62-9d9f-9bcb16d6ec0b",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-2.png",
+            "Name": "HAIR STYLING",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "f5368d4a-458f-4c4b-8a5b-2878642d5303",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-3.png",
+            "Name": "SKIN CARE",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "a56f96e1-77f5-4d6d-9070-b32812d92f4d",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-4.png",
+            "Name": "NAIL CARE",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "ba549373-29d7-4f97-8e47-8c0d5670a1c2",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-5.png",
+            "Name": "MASSAGE",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "db8d3c8d-609b-4567-8b9c-e42b6f66cc14",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-6.png",
+            "Name": "FACIALS",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "b29039f1-75c0-4da5-a497-7d919d0d8f0b",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-7.png",
+            "Name": "WAXING",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "c2f23f36-2b68-47de-aaed-c756c0e36f91",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-8.png",
+            "Name": "MANICURE",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "a92480d9-1d4f-4df7-ba48-ef23ad8e1a08",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-9.png",
+            "Name": "PEDICURE",
+            "Slug": null,
+            "ParentId": null
+        },
+        {
+            "categoryId": "e8eb2a9b-8132-4e0f-813f-61514fc9be19",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Image": "http://localhost/images/image-10.png",
+            "Name": "BODY TREATMENTS",
+            "Slug": null,
+            "ParentId": null
+        }
+    ],
+    "cities": [
+        {
+            "Name": "ANKARA",
+            "CountryCode": "TR"
+        },
+        {
+            "Name": "ISTANBUL",
+            "CountryCode": "TR"
+        },
+        {
+            "Name": "NEW YORK",
+            "CountryCode": "US"
+        },
+        {
+            "Name": "LOS ANGELES",
+            "CountryCode": "US"
+        },
+        {
+            "Name": "BEIJING",
+            "CountryCode": "CN"
+        },
+        {
+            "Name": "SHANGHAI",
+            "CountryCode": "CN"
+        },
+        {
+            "Name": "LONDON",
+            "CountryCode": "GB"
+        },
+        {
+            "Name": "MANCHESTER",
+            "CountryCode": "GB"
+        },
+        {
+            "Name": "BERLIN",
+            "CountryCode": "DE"
+        },
+        {
+            "Name": "MUNICH",
+            "CountryCode": "DE"
+        },
+        {
+            "Name": "PARIS",
+            "CountryCode": "FR"
+        },
+        {
+            "Name": "MARSEILLE",
+            "CountryCode": "FR"
+        },
+        {
+            "Name": "TOKYO",
+            "CountryCode": "JP"
+        },
+        {
+            "Name": "OSAKA",
+            "CountryCode": "JP"
+        },
+        {
+            "Name": "RIO DE JANEIRO",
+            "CountryCode": "BR"
+        },
+        {
+            "Name": "SAO PAULO",
+            "CountryCode": "BR"
+        },
+        {
+            "Name": "MUMBAI",
+            "CountryCode": "IN"
+        },
+        {
+            "Name": "DELHI",
+            "CountryCode": "IN"
+        },
+        {
+            "Name": "MOSCOW",
+            "CountryCode": "RU"
+        },
+        {
+            "Name": "SAINT PETERSBURG",
+            "CountryCode": "RU"
+        }
+    ],
+    "companies": [
+        {
+            "companyId": "e2dff463-d77b-41bb-9914-8198abb4b4eb",
+            "Name": null
+        }
+    ],
+    "country": [
+        {
+            "Name": "TURKEY",
+            "Code": "TR"
+        },
+        {
+            "Name": "UNITED STATES",
+            "Code": "US"
+        },
+        {
+            "Name": "CHINA",
+            "Code": "CN"
+        },
+        {
+            "Name": "UNITED KINGDOM",
+            "Code": "GB"
+        },
+        {
+            "Name": "GERMANY",
+            "Code": "DE"
+        },
+        {
+            "Name": "FRANCE",
+            "Code": "FR"
+        },
+        {
+            "Name": "JAPAN",
+            "Code": "JP"
+        },
+        {
+            "Name": "BRAZIL",
+            "Code": "BR"
+        },
+        {
+            "Name": "INDIA",
+            "Code": "IN"
+        },
+        {
+            "Name": "RUSSIA",
+            "Code": "RU"
+        }
+    ],
+    "coupons": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "CouponCode": null,
+            "StartTime": "2023-08-29T00:00:00",
+            "EndTime": "2023-08-29T00:00:00",
+            "UseLimit": 0,
+            "DiscountType": 0,
+            "Value": 0.0,
+            "MinimumPurchaseAmount": 0.0,
+            "DaysAppliedOn": 0,
+            "Description": null
+        }
+    ],
+    "customers": [
+        {
+            "customerId": "58ce02bc-d342-4495-8c42-246f2f17267a",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "CANER ARAS",
+            "Email": "caneraras@yahoo.com",
+            "Password": null,
+            "Mobile": "905434069199",
+            "HouseNumber": "16",
+            "AddressLine": "BUCKDEN CLOSE",
+            "City": "WARWICK",
+            "State": "WARWICKSHIRE",
+            "PostCode": "CV34 5XG",
+            "Country": "GB"
+        },
+        {
+            "customerId": "c590ed8f-985b-4f19-9d9e-4bbcecc5b75e",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "John Doe",
+            "Email": "john.doe@example.com",
+            "Password": null,
+            "Mobile": "1234567890",
+            "HouseNumber": "123",
+            "AddressLine": "123 Main Street",
+            "City": "New York",
+            "State": "NY",
+            "PostCode": "10001",
+            "Country": "US"
+        },
+        {
+            "customerId": "eea26f12-4f42-442b-8b85-ae1d9b8b827b",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "Jane Smith",
+            "Email": "jane.smith@example.com",
+            "Password": null,
+            "Mobile": "9876543210",
+            "HouseNumber": "456",
+            "AddressLine": "456 Oak Avenue",
+            "City": "Los Angeles",
+            "State": "CA",
+            "PostCode": "90001",
+            "Country": "US"
+        },
+        {
+            "customerId": "c346d14e-e705-4a62-8dc9-24987080ad48",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "Alice Johnson",
+            "Email": "alice.johnson@example.com",
+            "Password": null,
+            "Mobile": "5551234567",
+            "HouseNumber": "789",
+            "AddressLine": "789 Pine Street",
+            "City": "London",
+            "State": null,
+            "PostCode": "SW1A 1AA",
+            "Country": "GB"
+        }
+    ],
+    "deals": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Title": "%20 Discount",
+            "ServiceType": null,
+            "DiscountType": 0,
+            "DiscountPercentage": 20.0,
+            "Price": 0.0,
+            "DealLimit": 1000,
+            "CustomerUseLimit": 1,
+            "Description": null,
+            "Status": false,
+            "StartDate": "2023-08-29T00:00:00",
+            "EndDate": "2023-08-29T00:00:00",
+            "DealIds": null,
+            "DaysAppliedOn": [
+                1,
+                2,
+                3
+            ],
+            "Image": null
+        }
+    ],
+    "pos": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Date": "2023-08-29T00:00:00",
+            "CustomerId": "c0141892-9b90-405b-b218-be498c97e4cd",
+            "AssignEmployeeIds": [
+                "312318e1-d56c-4d5d-974a-3a0e7a55c4e4"
+            ],
+            "BookingId": "e6600452-7196-4157-9475-988840b05da9",
+            "TotalDiscount": 0.0,
+            "TotalTax": 0.0,
+            "AppliedCouponIds": [],
+            "GrandTotal": 10.0,
+            "Details": [
+                {
+                    "ProductId": "df60c1d5-bb65-4cee-816e-2c2c9a977d10",
+                    "Note": null,
+                    "Quantity": 1,
+                    "Total": 10,
+                    "Tax": 0,
+                    "Discount": 0,
+                    "TaxIds": []
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "ProductId": "df60c1d5-bb65-4cee-816e-2c2c9a977d10",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "ProductType": 0,
+            "Name": "Hair Dye",
+            "Description": null,
+            "Price": 10.0,
+            "Discount": 0.0,
+            "Category": null,
+            "TaxIds": null
+        },
+        {
+            "ProductId": "cf4b5e4d-01f1-4ae1-9ed5-c6f4e164b7c7",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "ProductType": 0,
+            "Name": "Nail Polish",
+            "Description": null,
+            "Price": 10.0,
+            "Discount": 0.0,
+            "Category": null,
+            "TaxIds": null
+        }
+    ],
+    "sector": [
+        {
+            "Name": "TEST",
+            "CompanyId": "c0141892-9b90-405b-b218-be498c97e4cd"
+        }
+    ],
+    "address": [
+        {
+            "CompanyId": "e2dff463-d77b-41bb-9914-8198abb4b4eb",
+            "HouseFlatNumber": "16",
+            "AddressLine": "BUCKDEN CLOSE",
+            "City": "WARWICK",
+            "State": "WARWICKSHIRE",
+            "PostCode": "CV34 5XG",
+            "Country": "GB"
+        }
+    ],
+    "BookingSchedule": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Day": null,
+            "OpenTime": null,
+            "CloseTime": null,
+            "AllowBooking": false,
+            "Notes": null
+        }
+    ],
+    "BookingSettings": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "MultiTaskingEmployee": false,
+            "LimitBooking": 0,
+            "AllowEmployeeSelection": false,
+            "CronJob": null
+        }
+    ],
+    "currencies": [
+        {
+            "currencyId": "7d60a788-5a1a-4427-b90b-54014ab02c8d",
+            "CompanyId": "e2dff463-d77b-41bb-9914-8198abb4b4eb",
+            "Name": "British Pound",
+            "Symbol": "£",
+            "Code": "GBP",
+            "Postion": 0,
+            "ThousandSeperator": ",",
+            "NoOfDecimals": 2,
+            "DecimalSeperator": "."
+        },
+        {
+            "currencyId": "67022208-a0a5-475a-85a3-08d8781913e1",
+            "CompanyId": "e2dff463-d77b-41bb-9914-8198abb4b4eb",
+            "Name": "Turkish Lira",
+            "Symbol": "TL",
+            "Code": "TRY",
+            "Postion": 0,
+            "ThousandSeperator": ".",
+            "NoOfDecimals": 2,
+            "DecimalSeperator": ","
+        }
+    ],
+    "Definition": [
+        {
+            "name": "%20",
+            "DefinitionGroupId": 1
+        },
+        {
+            "name": "%1",
+            "DefinitionGroupId": 2
+        }
+    ],
+    "DefinitionGroups": [
+        {
+            "id": 1,
+            "name": "Tax"
+        },
+        {
+            "id": 2,
+            "name": "TimeZone"
+        }
+    ],
+    "Emailsettings": [
+        {
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "MailHost": null,
+            "MailPort": 0,
+            "Username": null,
+            "Password": null,
+            "Encryption": null,
+            "FromName": null,
+            "FromEmail": null
+        }
+    ],
+    "Employee": [
+        {
+            "EmployeeId": "312318e1-d56c-4d5d-974a-3a0e7a55c4e4",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "CANER ARAS",
+            "Email": "caneraras@yahoo.com",
+            "Password": null,
+            "Mobile": null,
+            "EmployeeGroup": 0,
+            "AssignRole": 0,
+            "AssignServices": null
+        },
+        {
+            "EmployeeId": "bac17361-3711-473e-b6f9-4a37707e0c8d",
+            "BranchId": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "Name": "FATMA ARAS",
+            "Email": "fatmaara@yahoo.com",
+            "Password": null,
+            "Mobile": null,
+            "EmployeeGroup": 0,
+            "AssignRole": 0,
+            "AssignServices": null
+        }
+    ],
+    "EmployeeAssignServices": [
+        {
+            "EmployeeId": "312318e1-d56c-4d5d-974a-3a0e7a55c4e4",
+            "ProductId": "cf4b5e4d-01f1-4ae1-9ed5-c6f4e164b7c7"
+        },
+        {
+            "EmployeeId": "312318e1-d56c-4d5d-974a-3a0e7a55c4e4",
+            "ProductId": "df60c1d5-bb65-4cee-816e-2c2c9a977d10"
+        }
+    ],
+    "EmployeeSchedule": [
+        {
+            "EmployeeId": "312318e1-d56c-4d5d-974a-3a0e7a55c4e4",
+            "Branch": "b1c9fcf6-4eca-47e3-9eec-0a05e83e814f",
+            "WorkingDays": [
+                {
+                    "WorkingDay": 1,
+                    "Start": "09:00",
+                    "End": "17:30"
+                },
+                {
+                    "WorkingDay": 2,
+                    "Start": "09:00",
+                    "End": "17:30"
+                },
+                {
+                    "WorkingDay": 3,
+                    "Start": "09:00",
+                    "End": "17:30"
+                },
+                {
+                    "WorkingDay": 5,
+                    "Start": "09:00",
+                    "End": "17:30"
+                },
+                {
+                    "WorkingDay": 5,
+                    "Start": "11:00",
+                    "End": "15:00"
+                }
+            ]
+        }
+    ],
+    "general": [
+        {
+            "CompanyId": "e2dff463-d77b-41bb-9914-8198abb4b4eb",
+            "BusinessName": "TEST COMPANY",
+            "Email": null,
+            "Phone": null,
+            "Logo": null,
+            "Address": null,
+            "Website": null,
+            "Timezone": null,
+            "Currency": "7d60a788-5a1a-4427-b90b-54014ab02c8d",
+            "Language": null
+        }
+    ],
+    "profile": [
+        {
+            "CompanyId": "e2dff463-d77b-41bb-9914-8198abb4b4eb",
+            "Name": null,
+            "Email": null,
+            "Mobile": null,
+            "Address": null
+        }
+    ],
+    "tax": [
+        {
+            "BranchId": "3a6bd0b4-d4e9-40d4-a2da-cba1d925a67e",
+            "TaxName": "VAT",
+            "Percent": 20.00
+        }
+    ]
+}
